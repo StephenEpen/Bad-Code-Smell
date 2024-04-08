@@ -19,7 +19,7 @@ const ChangePreventersPage = () => {
         </div>
         <div>
           {smells.map((smell) => (
-            <Body key={smell.id} id={smell.section} title={smell.title} image={smell.image} paragraph1={smell.paragraph1} paragraph2={smell.paragraph2} paragraph3={smell.paragraph3} code1={smell.code1} code2={smell.code2} />
+            <Body key={smell.id} id={smell.section} title={smell.title} image={smell.image} paragraph1={smell.paragraph1} paragraph2={smell.paragraph2} paragraph3={smell.paragraph3} code1={smell.code1} code2={smell.code2} source={smell.source} />
           ))}
         </div>
         <div>
