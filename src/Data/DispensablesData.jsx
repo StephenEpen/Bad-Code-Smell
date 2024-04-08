@@ -220,7 +220,7 @@ public class CybSec extends Mahasiswa {
 
 }
         `,
-        source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Dispensables/Data%20Class"
+        source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Dispensables/Duplicate%20Code"
     },
     {
         id: 3,
@@ -317,7 +317,7 @@ public class RectangleAreaCalculator {
         
         }
         `,
-        source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Dispensables/Dead%20Code"
+        source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Dispensables/Lazy%20Class"
     },
     {
         id: 4,
@@ -397,7 +397,7 @@ public class RectangleAreaCalculator {
             
         }
         `,
-        source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Dispensables/Duplicate%20Code"
+        source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Dispensables/Data%20Class"
     },
     {
         id: 5,
@@ -537,7 +537,7 @@ public class Worker {
 	}
 }
         `,
-        source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Dispensables/Lazy%20Class"
+        source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Dispensables/Dead%20Code"
     },
     {
         id: 6,
