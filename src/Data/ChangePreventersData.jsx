@@ -303,5 +303,13 @@ export const references = [
   {
     id: 1,
     url: "https://code-smells.com/change-preventers/divergent-change"
+  },
+  {
+    id: 2,
+    url: "https://refactoring.guru/refactoring/smells"
+  },
+  {
+    id: 3,
+    url: "https://akmalrusli363.github.io/smell/"
   }
 ]
