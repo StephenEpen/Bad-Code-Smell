@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
-import { CodeBlock, dracula } from 'react-code-blocks';
+import { CodeBlock, arta } from 'react-code-blocks';
 
 function MyCoolCodeBlock({ condition, code, language, showLineNumbers }) {
   const [isVisible, setIsVisible] = useState(false)
@@ -23,7 +23,7 @@ function MyCoolCodeBlock({ condition, code, language, showLineNumbers }) {
             text={code}
             language={language}
             showLineNumbers={showLineNumbers}
-            theme={dracula}
+            theme={arta}
             hidden
           />
         </div>
