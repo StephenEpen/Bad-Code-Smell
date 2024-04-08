@@ -630,7 +630,11 @@ const ParticleBackground = () => {
     )
   }
 
-  return <></>;
+  return (
+    <>
+      <div className="bg-[##1E1C1C]"></div>
+    </> 
+  )
 };
 
 export default ParticleBackground;

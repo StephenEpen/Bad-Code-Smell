@@ -163,7 +163,7 @@ export const smells = [
       
     
     } `,
-    source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Change%20Preventers/Parallel%20Inheritance%20Hierarchies"
+    source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Change%20Preventers/Shotgun%20Surgery"
     },
     {
       id: 3,
@@ -294,7 +294,7 @@ export const smells = [
           return L.PriceCalculator(I) - discount;
         }
       }`,
-      source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Change%20Preventers/Shotgun%20Surgery"
+      source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Change%20Preventers/Parallel%20Inheritance%20Hierarchies"
     },
   ]
   
