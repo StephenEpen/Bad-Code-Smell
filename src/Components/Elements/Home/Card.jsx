@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-const MAX_EXPLANATION_LENGTH_MOBILE = 155;
+const MAX_EXPLANATION_LENGTH_MOBILE = 140;
 const MAX_EXPLANATION_LENGTH_DESKTOP = 205;
 
 /* eslint-disable react/prop-types */
