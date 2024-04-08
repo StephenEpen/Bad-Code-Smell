@@ -37,7 +37,7 @@ const NavLinks = (props) => {
                                         link.sublinks.map((mysublinks) => (
                                             <div key={mysublinks.subId}>
                                                 <li className="text-sm text-white my-2.5">
-                                                    <HashLink to={mysublinks.link} className="hover:text-blue-500">{mysublinks.name}</HashLink>
+                                                    <HashLink to={mysublinks.link} className="hover:text-blue-400">{mysublinks.name}</HashLink>
                                                 </li>
                                             </div>
                                         ))
@@ -54,7 +54,7 @@ const NavLinks = (props) => {
                         {link.sublinks.map((mysublinks) => (
                             <div key={mysublinks.subId}>
                                 <li className='text-white py-3 pl-7'>
-                                    <HashLink to={mysublinks.link} className="hover:text-[#0496ff]" onClick={handleMenu}>{mysublinks.name}</HashLink>
+                                    <HashLink to={mysublinks.link} className="hover:text-blue-400" onClick={handleMenu}>{mysublinks.name}</HashLink>
                                 </li>
                             </div>
                         ))}

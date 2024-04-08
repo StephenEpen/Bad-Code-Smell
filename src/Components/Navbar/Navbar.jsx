@@ -21,7 +21,7 @@ const Navbar = () => {
             </div>
             <ul className="md:flex hidden uppercase items-center gap-8 font-Poppins">
                 <li>
-                    <Link to="/" className="text-white py-7 px-3 inline-block hover:text-blue-500">
+                    <Link to="/" className="text-white py-7 px-3 inline-block hover:text-blue-400">
                         Home
                     </Link>
                 </li>
@@ -32,7 +32,7 @@ const Navbar = () => {
             <div className={`pl-2 bg-[#212121] bg-opacity-95 mt-16 fixed inset-0 z-40 md:hidden overflow-y-auto transition-transform ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
                 <ul>
                     <li>
-                        <Link to="/" className="text-white block py-6 px-3 hover:text-blue-500" onClick={() => setIsOpen(false)}>Home</Link>
+                        <Link to="/" className="text-white block py-6 px-3 hover:text-blue-400" onClick={() => setIsOpen(false)}>Home</Link>
                     </li>
                     <NavLinks onClick={closedMenu} />
                 </ul>

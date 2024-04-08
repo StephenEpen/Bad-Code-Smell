@@ -6,19 +6,7 @@ import MyCoolCodeBlock from "../../Elements/Content/CodeHolder";
 import ExplanationExample from "../../Elements/Content/ExplanationExample";
 
 const Body = (props) => {
-    const{ id, title, image, paragraph1, paragraph2, paragraph3, code1, code2 } = props;
-    // const [showBeforeCode, setShowBeforeCode] = useState(false); 
-    // const [showAfterCode, setShowAfterCode] = useState(false);
-
-    // const handleBeforeClick = () => {
-    //     setShowBeforeCode(true);
-    //     setShowAfterCode(false);
-    // };
-
-    // const handleAfterClick = () => {
-    //     setShowBeforeCode(false);
-    //     setShowAfterCode(true);
-    // };
+    const{ id, title, image, paragraph1, paragraph2, paragraph3, code1, code2, source } = props;
 
     return(
         <div>
@@ -26,7 +14,7 @@ const Body = (props) => {
             <ExplanationImage image={image} />
             <ExplanationText ets={paragraph1} title={title}/>
             <ExplanationText ets={paragraph2} title={title}/>
-            <ExplanationExample title={title} />
+            <ExplanationExample title={title} source={source}/>
             <MyCoolCodeBlock condition="Before" code={code1} language="java" showLineNumbers="true" />
             <MyCoolCodeBlock condition="After" code={code2} language="java" showLineNumbers="true" />
             <div className="flex-col justify-center text-sm text-justify mt-2 md:text-lg">

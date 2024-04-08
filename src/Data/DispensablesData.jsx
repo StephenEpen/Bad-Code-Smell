@@ -47,7 +47,8 @@ export const smells = [
       }
       
     }
-    `
+    `,
+    source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Dispensables/Comments"
     },
     {
         id: 2,
@@ -130,7 +131,7 @@ export const smells = [
             NIM = nIM;
         }
     }
-`,
+        `,
         code2: `package duplicateCodeAfter;
 
         public class Mahasiswa {
@@ -218,7 +219,8 @@ public class CybSec extends Mahasiswa {
 	}
 
 }
-`,
+        `,
+        source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Dispensables/Data%20Class"
     },
     {
         id: 3,
@@ -275,7 +277,7 @@ public class RectangleAreaCalculator {
 		return a*b;
 	}
 }
-`,
+        `,
         code2: `package LazyClassAfter;
 
         public class Rectangle{
@@ -315,6 +317,7 @@ public class RectangleAreaCalculator {
         
         }
         `,
+        source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Dispensables/Dead%20Code"
     },
     {
         id: 4,
@@ -394,6 +397,7 @@ public class RectangleAreaCalculator {
             
         }
         `,
+        source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Dispensables/Duplicate%20Code"
     },
     {
         id: 5,
@@ -470,7 +474,7 @@ public class Worker {
 		this.name = name;
 	}
 }
-`,
+        `,
         code2: `package DeadCodeAfter;
 
         import java.util.Vector;
@@ -532,7 +536,8 @@ public class Worker {
 		this.name = name;
 	}
 }
-`,
+        `,
+        source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Dispensables/Lazy%20Class"
     },
     {
         id: 6,
@@ -644,6 +649,7 @@ public class Worker {
             }
         }
         `,
+        source: "https://github.com/Samu22bd/Bad-Smell-Code/tree/main/Code%20Smell%20Git%20Source/Dispensables/Speculative%20Generality"
     },
 ]
 
