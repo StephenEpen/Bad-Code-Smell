@@ -21,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/Dispensables",
     element: <DispensablesPage/>
+  },
+  {
+    path: "/Error",
+    element: <ErrorPage/>
   }
 ])
 
