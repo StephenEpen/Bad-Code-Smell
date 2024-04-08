@@ -3,7 +3,7 @@ export const smells = [
       id: 1,
       section: "shotgunsurgery",
       title: "Divergent Change",
-      image: "../public/assets/divergentchange.png",
+      image: "/images/divergentchange.png",
       paragraph1: `Divergent change terjadi ketika sebuah class/method mengalami perubahan yang terlalu sering dengan maksud yang berbeda.
        Saat digunakan oleh class/method lain, hal tersebut akan menyebabkan terjadinya sebuah error karena saat class/method tersebut ada 
        perubahan maka class/method yang menggunakannya juga harus mengalami peruabahan. Pada dasarnya sebuah class memiliki relasi 
@@ -56,7 +56,7 @@ export const smells = [
       id: 2,
       section: "PIH",
       title: "Shotgun Surgery",
-      image: "../public/assets/shotgunsurgery.png",
+      image: "/images/shotgunsurgery.png",
       paragraph1: `Shotgun surgery merupakan kebalikan dari divergent change, bila pada divergent change banyak perubahan memengaruhi satu class/method maka pada shotgun sugery satu perubahan memengaruhi banyak class/method. Ketika ada suatu method yang mengalami perubahan pada satu class dan method tersebut digunakan pada class lain, maka semua class juga harus melakukan perubahan. `,
       paragraph2: `Untuk menanggulangi smell ini, move method dan move field dapat digunakan. Ketika ada suatu ada method yang memerlukan perubahan, method tersebut dapat dipindahkan ke class yang terkait atau membuat class baru bila tidak terkait dengan class lain.  `,
       paragraph3: `Ada duplikasi kode “total”  yang memiliki fungsi berbeda, pada method “calculateTotal” variabel total memiliki fungsi untuk menghitung jumlah, sedangkan pada method “printOrder” variabel total digunakan untuk menampilkan total.
@@ -167,7 +167,7 @@ export const smells = [
       id: 3,
       section: "",
       title: "Parallel Inheritance Hierarchies",
-      image: "../public/assets/PIH.png",
+      image: "/images/PIH.png",
       paragraph1: `Parratel Inheritance Hierarchies merupakan keadaan ada sebuah class yang mempunyai sub class ketika class ingin menambahkan suatu method maka sub class juga harus menambahkan method. Hal tersebut menyebabkan sub class mempunyai method yang tidak diketahui fungsinya sehingga method tersebut akan terabaikan yang menyebabkan smell baru. `,
       paragraph2: `Untuk menghilangkan smell ini code harus di de-duplicate. Ada beberapa langkah yang harus dilakukan, yang pertama membuat instansi dari satu hierarki merujuk ke instansi hierarki lain menggunakan teknik delegasi atau komposisi, kemudian hapus hierarki dalam kelas yang dirujuk menggunakan move method dan move field agar fungsionalitas tidak hilang. `,
       paragraph3: `Pada kode before, saat kita ingin menambahkan suatu product pada class Item, maka kita juga perlu menambahkan ItemPriceCalculator untuk produk tersebut. Maka pada kode after, method pada ItemPriceCalculator dipindahkan ke class Item`,
